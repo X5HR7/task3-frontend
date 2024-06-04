@@ -1,0 +1,24 @@
+.message {
+  margin: 0 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2b6af3;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.message__text {
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+}
+
+.message__date {
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: right;
+}

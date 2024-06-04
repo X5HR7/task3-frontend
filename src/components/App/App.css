@@ -1,0 +1,35 @@
+@import '../../fonts/fonts.css';
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: Inter, Sans-serif;
+}
+
+.app {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 460px;
+
+  background-color: #f6f6f6;
+  border-radius: 15px;
+}
+
+.messages {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: right;
+  height: 80vh;
+  overflow-y: auto;
+  flex: 1 0 auto;
+}
+
+.error {
+  margin: 100px auto;
+  padding: 0;
+  font-size: 20px;
+}
+
